@@ -1,0 +1,704 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+::-webkit-input-placeholder {
+		color: #002B40; 
+		font-family: 'Courgette', cursive; 
+		font-size: 1em
+}
+::-ms-input-placeholder {
+		color: #002B40; 
+		font-family: 'Courgette', cursive; 
+		font-size: 1em
+}
+::-moz-input-placeholder {
+	color: #002B40; 
+	font-family: 'Courgette', cursive; 
+	font-size: 1em
+}
+::-webkit-input-placeholder {
+	color: #002B40; 
+	font-family: 'Courgette', cursive; 
+	font-size: 1em
+}
+::placeholder {
+	color: #002B40; 
+	font-family: 'Courgette', cursive; 
+	font-size: 1em
+}
+
+ul li {
+	list-style: none;
+}
+body {
+    height: 100%;
+	font-family: 'Biryani', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+footer {
+	background-color: #DFE3E5;
+	border-top: solid 7px #002B40;
+	height: auto;
+	padding: 1em 0 1em 0;
+	width: 100%;
+}
+footer .Copy {
+	color: #58595B;
+	font-size: 11px;
+	padding: 3em 0 0 0;
+}
+footer .Container {
+	height: auto;
+	margin: auto;
+	padding: 1.5em 0 0 0;
+	max-width: 1200px;
+	width: auto;
+}
+footer .Footercol-1 {
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+footer .Footercol-2 {
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+footer .Footercol-2 ul li {
+	color: #58595B;
+	font-size: 13px;
+	line-height: 1.7em;
+	text-align: left;
+}
+footer .Footercol-2 ul li a {
+	color: #58595B;
+	text-decoration: none;
+}
+footer .Footercol-2 ul li a:hover {
+	color: #58595B;
+	text-decoration: underline;
+}
+footer .Footercol-4 {
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+footer .Footercol-4 h2 {
+	font-size: 14px;
+}
+footer .Footercol-4 ul li {
+	display: inline-block;
+	padding: .3em 0 0 0;
+}
+header {
+	background-color: #002B40;
+	height: auto;
+	padding: 2em 0 2em 0;
+	width: 100%;
+}
+header .Container {
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+	max-width: 1200px;
+	width: auto;
+}
+header .Logo {
+	display: inline-block;
+	height: auto;
+	float: left;
+	vertical-align: middle;
+	width: auto;
+}
+header .Redes {
+	display: inline-block;
+	float: right;
+	height: auto;
+	margin: 1em 0 0 0;
+	vertical-align: middle;
+	width: auto;
+}
+header .Redes ul li {
+	display: inline-block;
+	margin: 0 .2em 0 .2em;
+	vertical-align: middle;
+}
+h2 {
+	color: #002B40;
+	font-family: 'Lora', serif;
+}
+h3 {
+	color: #002B40;
+	font-family: 'Lora', serif;
+}
+input {
+	border: none;
+	border-radius: 0px;
+	border-bottom: solid 1px #002B40;
+	font-style: italic;
+	height: 50px;
+	width: 100%;
+}
+input .wpcf7-form-control-wrap {
+	background-color: #002B40;
+	border-radius: 5px;
+	height: 300px;
+}
+textarea {
+	border: none;
+	border-bottom: solid 1px #002B40;
+	border-radius: 0px;
+	max-height: 280px;
+	height: 80px;
+	margin: 1em 0 .5em 0;
+	width: 100%;
+}
+.Clientes {
+	height: auto;
+	margin: 1em 0 2em 0;
+	width: 100%;
+}
+.Clientes .Container {
+	height: auto;
+	margin: auto;
+	max-width: 1200px;
+	width: auto;
+}
+.Clientes h2 {
+	border-bottom: solid 1px #002B40;
+	font-size: 19px;
+	margin: auto;
+	padding: 2em 0 .5em 0;
+	width: 80%;
+}
+.Clientes .Col1 {
+	height: auto;
+	display: inline-block;
+	margin: 2em 1em 2em 1em;
+	vertical-align: top;
+	width: 20%;
+}
+.Clientes .Col2 {
+	height: auto;
+	display: inline-block;
+	margin: 2em 1em 2em 1em;
+	vertical-align: top;
+	width: 20%;
+}
+.Clientes .Col3 {
+	height: auto;
+	display: inline-block;
+	margin: 2em 1em 2em 1em;
+	vertical-align: top;
+	width: 20%;
+}
+.Clientes .Col4 {
+	height: auto;
+	display: inline-block;
+	margin: 2em 1em 2em 1em;
+	vertical-align: top;
+	width: 20%;
+}
+.Cuarenta {
+	height: auto;
+	background-image: url('../../assets/images/45.jpg');
+	background-position: center;
+	background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	padding: 2em 0 2em 0;
+	width: 100%;
+}
+.Cuarenta .Container {
+	height: auto;
+	margin: auto;
+	max-width: 1200px;
+	width: auto;
+}
+.Cuarenta .col145 {
+	height: auto;
+	display: inline-block;
+	margin: 0 2em 0 6em;
+	vertical-align: middle;
+	width: auto;
+}
+.Cuarenta .col245 {
+	height: auto;
+	display: inline-block;
+	margin: 0 2em 0 2em;
+	vertical-align: middle;
+	width: 50%;
+}
+.Cuarenta .col245 h2 {
+	padding: 0 0 .5em 0;
+	text-align: left;
+}
+.Cuarenta .col245 article p {
+	line-height: 1.6em;
+	text-align: left;
+}
+.Firma {
+	height: 350px;
+	background-image: url('../../assets/images/firma.jpg');
+	background-position: center;
+	background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	border-top: solid 8px #CFD0D1;
+	padding: 2em 0 2em 0;
+	width: 100%;
+}
+.Firma .Container {
+	height: auto;
+	margin: auto;
+	max-width: 1200px;
+	width: auto;
+}
+.Firma .FirmaCol1 {
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+.Firma .FirmaCol2 {
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+}
+.Firma .FirmaCol2 article p {
+	line-height: 1.8em;
+	text-align: left;
+}
+.FirmaHernan {
+	display: none;
+}
+.Franja {
+	background-image: url('../../assets/images/franja-footer.jpg');
+	background-position: center;
+	background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	height: 100px;
+	width: auto;
+}
+.Formulario {
+	height: auto;
+	margin: 1em 0 2em 0;
+	width: 100%;
+}
+.Formulario .Container {
+	height: auto;
+	margin: auto;
+	max-width: 1200px;
+	width: auto;
+}
+.Formulario .Formulario-col1 {
+	height: auto;
+	display: inline-block;
+	line-height: 4em;
+	margin: .5em 2em 0 2em;
+	vertical-align: top;
+	width: 20%;
+}
+.Formulario .Formulario-col1 h2 {
+	border-bottom: solid 1px #DDD;
+	font-size: 50px;
+	padding: .5em 0 .1em 0;
+	text-align: left;
+}
+.Formulario .Formulario-col1 h3 {
+	color: grey;
+	font-style: italic;
+	font-weight: 100;
+	line-height: 1.7em;
+	padding: .3em 0 0 0;
+}
+.Formulario .Formulario-col2 {
+	height: auto;
+	display: inline-block;
+	margin: 2em 0 0 0;
+	vertical-align: top;
+	width: 40%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        height: auto;
+    }
+    footer {
+        height: auto;
+    }
+    header .Container {
+        height: auto;
+        width: 90%;
+    }
+    .Cuarenta {
+        margin: 0;
+        padding: 1em 0 1em 0;
+    }
+    .Cuarenta .col145 {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+    .Cuarenta .col245 {
+        height: auto;
+        width: 50%;
+    }
+    .Cuarenta .col245 h2 {
+        font-size: 18px;
+    }
+    .Cuarenta .col245 article p {
+        font-size: 13px;
+    }
+    .Clientes {
+        margin: 0;
+        padding: 3em 0 3em 0;
+    }
+    .Clientes .Col1 {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        width: 45%;
+    }
+     .Clientes .Col2 {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        width: 45%;
+    }
+    .Clientes .Col3 {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        width: 45%;
+    }
+    .Clientes .Col4 {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        width: 45%;
+    }
+    .Firma {
+        height: auto;
+        width: 100%;
+    }
+    .Formulario {
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .Formulario .Formulario-col1 {
+        height: auto;
+        width: 40%;
+    }
+    .Formulario .Formulario-col1 h2 {
+        text-align: center;
+    }
+     .Formulario .Formulario-col2 {
+        height: auto;
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    body {
+        height: auto;
+    }
+    footer {
+        height: auto;
+    }
+    footer .Footercol-1 {
+        height: auto;
+        width: 100%;
+    }
+    footer .Footercol-2 {
+        height: auto;
+        width: 100%;
+    }
+    footer .Footercol-2 ul li {
+        font-size: 18ox;
+        height: auto;
+        text-align: center;
+        width: 100%;
+    }
+    footer .Footercol-4 {
+        height: auto;
+        margin: 1em 0 0 0;
+        width: 100%;
+    }
+    header .Container {
+        height: auto;
+        width: 90%;
+    }
+    .Cuarenta {
+        height: auto;
+        margin: 0;
+        padding: 1em 0 1em 0;
+        width: 100%;
+    }
+    .Cuarenta .col145 {
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .Cuarenta .col245 h2 {
+        font-size: 18px;
+    }
+    .Cuarenta .col245 article p {
+        font-size: 14px;
+    }
+    .Clientes {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+    .Clientes .Col1 {
+        height: auto;
+        margin: 1em 0 1em 0;
+        padding: auto;
+        width: 40%;
+    }
+    .Clientes .Col2 {
+        height: auto;
+        margin: 1em 0 1em 0;
+        padding: auto;
+        width: 40%;
+    }
+    .Clientes .Col3 {
+        height: auto;
+        margin: 1em 0 1em 0;
+        padding: auto;
+        width: 40%;
+    }
+    .Clientes .Col4 {
+        height: auto;
+        margin: 1em 0 1em 0;
+        padding: auto;
+        width: 40%;
+    }
+    .Firma {
+        height: auto;
+        width: 100%;
+    }
+    .Firma .FirmaHernan {
+        display: block;
+    }
+    .Formulario {
+        height: auto;
+    }
+    .Formulario .Formulario-col1 {
+        height: auto;
+        width: 70%;
+    }
+    .Formulario .Formulario-col1 h2 {
+        text-align: center;
+    }
+    .Formulario .Formulario-col2 {
+        height: auto;
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+	body {
+		height: auto;
+	}
+    footer {
+        border: solid 5px #DFE3E5;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+    footer .Footercol-1 {
+        height: auto;
+        margin: 0 0 1em 0;
+        padding: 0;
+        width: 100%;
+    }
+    footer .Footercol-2 {
+        height: auto;
+        margin: 0 0 1em 0;
+        padding: 0;
+        width: 100%;
+    }
+    footer .Footercol-2 ul li {
+        font-size: 16px;
+        height: auto;
+        margin: 0 0 1em 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    footer .Copy {
+        margin: 0 0 2em 0;
+    }
+	.Cuarenta {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        widows: auto;
+	}
+    .Cuarenta .col145 {
+        margin: 0;
+        padding: 1em 0 1em 0;
+        width: auto;
+    }
+    .Cuarenta .col245 {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .Cuarenta .col245 h2 {
+        text-align: center;
+    }
+    .Cuarenta .col245 article p {
+        font-size: 15px;
+        margin: 0 auto;
+        padding: 0 0 1.5em 0;
+        text-align: justify;
+        width: 95%;
+    }
+    .Clientes {
+        margin: 0;
+        padding: 0;
+    }
+    .Clientes h2 {
+        font-size: 17px;
+        height: auto;
+    }
+    .Clientes .Col1 {
+        height: auto;
+        margin: 1em 0 1em 0;
+        padding: 0;
+        width: auto;
+    }
+    .Clientes .Col2 {
+        height: auto;
+        margin: 1em 0 1em 0;
+        padding: 0;
+        width: auto;
+    }
+    .Clientes .Col3 {
+        height: auto;
+        margin: 1em 0 1em 0;
+        padding: 0;
+        width: auto;
+    }
+    .Clientes .Col4 {
+        height: auto;
+        margin: 1em 0 1em 0;
+        padding: 0;
+        width: auto;
+    }
+    .Firma {
+        height: auto;
+        width: 100%;
+    }
+    .Firma .FirmaHernan {
+        display: block;
+        padding: 1em 0 1em 0;
+    }
+    .Firma .FirmaCol1 {
+        display: none;
+    }
+    .Firma .FirmaCol2 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .Firma .FirmaCol2 article p {
+        text-align: justify;
+        font-size: 16px;
+        margin: auto;
+        width: 90%;
+    }
+    .Formulario {
+        height: auto;
+        width: auto;
+    }
+    .Formulario .Formulario-col1 {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        width: 90%;
+    }
+    .Formulario .Formulario-col1 h2 {
+        text-align: center;
+    }
+    .Formulario .Formulario-col1 h3 {
+        text-align: center;
+    }
+    .Formulario .Formulario-col2 {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        width: 90%;
+    }
+}
+@media screen and (max-width: 375px) {
+    header {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 1em 0 1em 0;
+    }
+    header .Logo {
+        height: auto;
+        width: 100%;
+    }
+    header .Redes {
+        height: auto;
+        width: 100%;
+    }
+    footer {
+        border: solid 5px #DFE3E5;
+    }
+    footer .Copy {
+        font-size: 10px;
+        padding: 1em 0 1em 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    footer {
+        border: solid 5px #DFE3E5;
+    }
+    footer .Copy {
+        font-size: 10px;
+        padding: 1em 0 1em 0;
+    }
+    header {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 1em 0 1em 0;
+    }
+    header .Logo {
+        height: auto;
+        width: 100%;
+    }
+    header .Redes {
+        height: auto;
+        width: 100%;
+    }
+}
