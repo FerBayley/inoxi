@@ -12,6 +12,7 @@
 	<?php wp_head(); ?>
 
 	<link rel="icon" type="image/png" href="assets/images/favicon.ico" />
+	<meta name="google-site-verification" content="FrpFKxwcwEd8r4VfB0Ix3JXRya8alHFu4TFbfIYDVCQ" />
 </head>
 <body>
 

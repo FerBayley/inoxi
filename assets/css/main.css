@@ -8,28 +8,28 @@ a {
     text-decoration: none;
 }
 ::-webkit-input-placeholder {
-		color: #002B40; 
-		font-family: 'Courgette', cursive; 
+		color: #002C41; 
+		font-family: 'Lora', serif;
 		font-size: 1em
 }
 ::-ms-input-placeholder {
-		color: #002B40; 
-		font-family: 'Courgette', cursive; 
+		color: #002C41; 
+		font-family: 'Lora', serif;
 		font-size: 1em
 }
 ::-moz-input-placeholder {
-	color: #002B40; 
-	font-family: 'Courgette', cursive; 
+	color: #002C41; 
+	font-family: 'Lora', serif;
 	font-size: 1em
 }
 ::-webkit-input-placeholder {
-	color: #002B40; 
-	font-family: 'Courgette', cursive; 
+	color: #002C41; 
+	font-family: 'Lora', serif;
 	font-size: 1em
 }
 ::placeholder {
-	color: #002B40; 
-	font-family: 'Courgette', cursive; 
+	color: #002C41; 
+	font-family: 'Lora', serif;
 	font-size: 1em
 }
 
@@ -176,7 +176,9 @@ textarea {
 }
 .Clientes h2 {
 	border-bottom: solid 1px #002B40;
+    color: #002C41;
 	font-size: 19px;
+    font-weight: bold;
 	margin: auto;
 	padding: 2em 0 .5em 0;
 	width: 80%;
@@ -184,6 +186,7 @@ textarea {
 .Clientes .Col1 {
 	height: auto;
 	display: inline-block;
+    font-size: 1em;
 	margin: 2em 1em 2em 1em;
 	vertical-align: top;
 	width: 20%;
@@ -240,15 +243,20 @@ textarea {
 	width: 50%;
 }
 .Cuarenta .col245 h2 {
+    color: #002C41;
+    font-family: 'Lora', serif;
+    font-weight: bold;
 	padding: 0 0 .5em 0;
 	text-align: left;
 }
 .Cuarenta .col245 article p {
-	line-height: 1.6em;
+    color: #58595B;
+    font-size: 1.2em;
+	line-height: 1.4em;
 	text-align: left;
 }
 .Firma {
-	height: 350px;
+	height: 480px;
 	background-image: url('../../assets/images/firma.jpg');
 	background-position: center;
 	background-size: cover;
@@ -274,10 +282,12 @@ textarea {
 	height: auto;
 	display: inline-block;
 	vertical-align: top;
-	width: 60%;
+	width: 65%;
 }
 .Firma .FirmaCol2 article p {
+    color: #58595B;
 	line-height: 1.8em;
+    margin: 2.5em 2em 0 5em;
 	text-align: left;
 }
 .FirmaHernan {

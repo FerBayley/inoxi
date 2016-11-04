@@ -50,5 +50,6 @@
 	</div> <!-- / Container -->
 		<script src="assets/js/jquery.js"></script>	
 		<?php wp_footer(); ?>
+		<?php include_once("includes/analyticstracking.php") ?>
 </body>
 </html>

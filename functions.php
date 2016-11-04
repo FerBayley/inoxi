@@ -4,7 +4,6 @@
 
 		wp_enqueue_style("opensans", "https://fonts.googleapis.com/css?family=Open+Sans");
 		wp_enqueue_style("lorabiryani", "https://fonts.googleapis.com/css?family=Biryani|Lora");
-		wp_enqueue_style("Yellowtail", "https://fonts.googleapis.com/css?family=Courgette");
 		wp_enqueue_style("normalize", get_stylesheet_directory_uri()."/assets/css/normalize.css");
 		wp_enqueue_style("main", get_stylesheet_directory_uri()."/assets/css/main.css");
 		//wp_enqueue_style("480", get_stylesheet_directory_uri()."/assets/css/1024.css");
