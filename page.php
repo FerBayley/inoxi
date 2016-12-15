@@ -15,7 +15,7 @@
 			</div> <!-- /col145 -->
 
 				<div class="col245">
-					<h2>EFICIENCIA GASTRONÓMICA</h2>
+					<h2>PRECISIÓN GASTRONÓMICA</h2>
 						<article>
 							<p>
 								Brindamos un servicio de asesoramiento para que usted pueda comprar el equipamiento adecuado a la necesidad del proyecto, entendiendo como se usa el producto debido a nuestra experiencia en la utilización y aplicación de los mismos.

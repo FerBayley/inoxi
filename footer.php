@@ -8,6 +8,7 @@
 		<ul>
 			<li>Mobil: +54 911 5418 1559</li>
 			<li>Tel: +54 11 4716-6682</li>
+			<li>Av.Dr.Honorio Pueyrredón 1076 - B1630CLT Pilar Centro - Buenos Aires</li>
 			<li><a href="http://www.inoxigas.com.ar">www.inoxigas.com.ar</a></li>
 			<li><a href="mailto:contacto@inoxigas.com.ar">contacto@inoxigas.com.ar</a></li>
 		</ul>
@@ -50,6 +51,5 @@
 	</div> <!-- / Container -->
 		<script src="assets/js/jquery.js"></script>	
 		<?php wp_footer(); ?>
-		<?php include_once("includes/analyticstracking.php") ?>
 </body>
 </html>
