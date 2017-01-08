@@ -32,4 +32,16 @@
 	add_action("wp_enqueue_scripts", "cargas_js");
 
 
+	add_theme_support("menus");
+
+	function registrar_mis_menus(){
+		register_nav_menus( array(
+
+			'menu_cabecera' => 'Menu en cabecera'
+
+		) );
+	}
+	add_action( 'init', 'registrar_mis_menus' );
+
+
 ?>

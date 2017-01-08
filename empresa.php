@@ -1,4 +1,83 @@
+<?php
+/*
+Template Name: empresa
+*/
+?>
+
 <?php get_header(); ?>
+
+		<section class="Img-empresa">
+			<img src="<?php echo get_template_directory_uri();?>/assets/images/imagen-empresa.jpg" alt="Inoxigas y Freddo">
+		</section> <!-- / Img-empresa -->
+
+
+		<section class="Descripcion">
+			<h2>Inoxigas: 45 años de precisión gastronómica</h2>
+		</section> <!-- / Descripcion -->
+
+		<section class="Texto-empresa">
+			<div class="Texto-empres1">
+				<article>
+					<p>
+						“Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 	labore et dolore magna aliqua.”
+					</p>
+				</article>
+			</div><!-- / Texto-empres1 -->
+
+			<div class="Texto-empres2">
+				<article>
+					<p>
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, entendiendo como se usa el producto debido a nuestra experiencia en la utilización y aplicación de los mismos.
+					</p>
+				</article>
+			</div><!-- / Texto-empres2 -->
+		</section> <!-- / Texto-empresa -->
+
+		<section class="Texto-despliegue">
+			<article>
+				<p>
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, entendiendo como se usa el producto debido a nuestra experiencia en la utilización y aplicación de los mismos.
+				</p>
+			</article>
+		</section> <!-- / Texto-despliegue -->
+
+
+		<section class="Texto-hernan">
+			<div class="Texto-hernan-imagen">
+				<img src="<?php echo get_template_directory_uri();?>/assets/images/firma-empresa.jpg" alt="">
+			</div> <!-- / Texto-hernan-imagen -->
+
+			<div class="Texto-hernan-texto">
+				<h2>HERNÁN POLEGGIO, UN EMPRENDEDOR CON TRAYECTORIA Y PRESTIGIO</h2>
+				<article>
+					<p>
+						“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”
+					</p>
+				</article>
+			</div> <!-- / Texto-hernan-texto -->
+		</section> <!-- / Texto-hernan -->
+
+		<section class="Alianza">			
+			<h2 class="Alianza-titulo">ALIANZA ESTRATÉGICA</h2>
+
+			<div class="Alianza-1">
+				<img src="<?php echo get_template_directory_uri();?>/assets/images/salero-alianza.jpg" alt="Inoxigas">
+			</div> <!-- / Alianza-1 -->
+
+			<div class="Alianza-2">
+				<img src="<?php echo get_template_directory_uri();?>/assets/images/logo-alianza.jpg" alt="Bartuos Bazar">
+
+				<article>
+					<p>
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, entendiendo como se usa el producto debido a nuestra experiencia en la utilización y aplicación de los mismos.
+					</p>
+				</article>
+
+				<a href="https:www.bartulosbazart.com">
+					ir a la web de Bártulos
+				</a>
+			</div> <!-- / Alianza-2 -->
+		</section> <!-- / Alienza -->
 
 		
 		<!-- CLIENTES -->
