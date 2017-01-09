@@ -640,6 +640,65 @@ textarea {
     padding: 0 0 .5em 0;
 }
 
+.Clientes-proyectos {
+    height: auto;
+    margin: auto;
+    margin-bottom: 2em;
+    margin-top: 2.5em;
+    max-width: 950px;
+    width: 100%;
+}
+.Clientes-proyectos img {
+    height: auto;
+    width: 100%;
+}
+
+.Clientes-proyectos-caso3 {
+    background-color: red;
+    height: auto;
+    margin: auto;
+    max-width: 950px;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.Resena {
+    height: auto;
+    margin: auto;
+    max-width: 950px;
+    overflow: hidden;
+    width: 100%;
+}
+.Resena .Resena1 {
+    height: auto;
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    width: 63%;
+}
+.Resena .Resena1 img {
+    height: auto;
+    width: 100%;
+}
+.Resena .Resena2 {
+    height: auto;
+    display: inline-block;
+    float: right;
+    text-align: left;
+    vertical-align: top;
+    width: 35%;
+}
+.Resena .Resena2 img {
+    height: auto;
+    width: 100%;
+}
+.Resena .Resena2 article  p {
+    color: #58595B;
+    font-size: .8em;
+    line-height: 1.8;
+    margin: .5em 0 0 0;
+}
+
 @media screen and (max-width: 768px) {
     body {
         height: auto;
