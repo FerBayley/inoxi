@@ -639,12 +639,21 @@ textarea {
     margin-top: 2em;
     padding: 0 0 .5em 0;
 }
-
+.Clientes-fondo {
+    background-image: url('../../assets/images/franja-footer.jpg');
+    background-position: center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    height: 150px;
+}
 .Clientes-proyectos {
+    padding: 2em 0 2em 0;
+    width: 100%;
     height: auto;
     margin: auto;
-    margin-bottom: 2em;
-    margin-top: 2.5em;
+    margin-bottom: -1em;
+    margin-top: -6em;
     max-width: 950px;
     width: 100%;
 }
@@ -654,12 +663,29 @@ textarea {
 }
 
 .Clientes-proyectos-caso3 {
-    background-color: red;
     height: auto;
     margin: auto;
     max-width: 950px;
-    margin-bottom: 2em;
+    margin-bottom: 5em;
     width: 100%;
+}
+.Clientes-proyectos-caso3 article p {
+    color: #58595B;
+    font-weight: 100;
+    font-size: .9em;
+    line-height: 1.7;
+    text-align: left;
+}
+.Clientes-proyectos-caso3 h2 {
+    font-size: 3em;
+    font-weight: 100;
+    text-align: left;
+    margin: .2em 0 .2em 0;
+}
+.Clientes-proyectos-caso3 h4 {
+    color: #002B40;
+    font-size: .9em;
+    text-align: left;
 }
 
 .Resena {
@@ -698,6 +724,75 @@ textarea {
     line-height: 1.8;
     margin: .5em 0 0 0;
 }
+.Proximamente {
+    background-color: #DDD;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -o-border-radius: 4px 4px 4px 4px;
+    -ms-border-radius: 4px 4px 4px 4px;
+    height: auto;
+    margin: auto;
+    margin-top: 5em;
+    max-width: 800px;
+    padding: 3em;
+    width: 100%;
+}
+.Detalles {
+    height: auto;
+    margin: auto;
+    max-width: 950px;
+    width: 100%;
+}
+.Detalles .Detalles1 {
+    height: auto;
+    display: inline-block;
+    margin: 0 1.5em 0 1.5em;
+    vertical-align: top;
+    width: 35%;
+}
+.Detalles .Detalles1 h2 {
+    font-size: 1.1em;
+    font-weight: 100;
+    margin: .5em 0 1em 0;
+    text-align: left;
+}
+.Detalles .Detalles1 article p {
+    color: #002B40;
+    font-size: .8em;
+    line-height: 2;
+    text-align: left;
+}
+.Detalles .Detalles2 {
+    height: auto;
+    display: inline-block;
+    margin: 0 1.5em 0 1.5em;
+    vertical-align: top;
+    width: 35%;
+}
+.Detalles .Detalles2 h2 {
+    font-size: 1.1em;
+    font-weight: 100;
+    margin: .5em 0 .5em 0;
+    text-align: left;
+}
+.Detalles .Detalles2 article p {
+    color: #58595B;
+    font-size: .8em;
+    line-height: 2;
+    text-align: left;
+}
+.Imagenes-finales {
+    height: auto;
+    margin: auto;
+    margin-bottom: 2em;
+    margin-top: 3em;
+    max-width: 950px;
+    width: 100%;
+}
+
+
+
 
 @media screen and (max-width: 768px) {
     body {
